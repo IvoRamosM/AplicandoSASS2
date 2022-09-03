@@ -5,4 +5,17 @@
   box-sizing: border-box;
 }
 
+.header ul li a:hover {
+  color: #ff8f1b;
+  box-shadow: 3px 3px 8px rgba(255, 255, 255, 0.8);
+  transform: translateY(-3%);
+}
+
+.header ul li a {
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease;
+}
+
 /*# sourceMappingURL=style.css.map */

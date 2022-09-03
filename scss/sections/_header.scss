@@ -1,0 +1,11 @@
+.header ul li a{
+    color: #fff;
+    font-family: $manrope;
+    // border: 1px solid #fff;
+    box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.5);
+    transition: all .3s ease;
+    &:hover{
+       @extend %hover-nav-li; 
+    }
+
+}
