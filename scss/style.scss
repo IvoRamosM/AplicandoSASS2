@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// variables
+@import "./base/variables";
+@import "./base/extend";
+@import "./base/mixin";
+@import "./base/typo";
+
+
+@import "./sections/header";
+@import"./sections/main";
+@import "./sections/footer";
