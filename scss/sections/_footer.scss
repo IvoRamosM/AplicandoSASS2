@@ -15,7 +15,6 @@ footer{
         color: #000;
         text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
         transition: all .3s ease;
-        transition: all .3s ease;
         &:hover{
             @extend %hover-nav-li-footer; 
          }
