@@ -1,0 +1,23 @@
+footer{
+    font-family: $manrope;
+    .copy{
+        font-size: 20px;
+        font-weight: 600;
+        .k-rosa{
+            color: $rosa-fuerte;
+        }
+        .resto-texto-naranja{
+            color: $naranja;
+        }
+    }
+    li a i{
+        font-size: 27px;
+        color: #000;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+        transition: all .3s ease;
+        border: none;
+        &:hover{
+            @extend %hover-nav-li-footer; 
+         }
+    }
+}

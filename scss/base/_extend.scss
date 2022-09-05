@@ -1,5 +1,11 @@
-%hover-nav-li{
+%hover-nav-li-header{
     color: $naranja;
     box-shadow: 3px 3px 8px rgba(255, 255, 255, 0.8);
+    transform: translateY(-3%);
+}
+
+%hover-nav-li-footer{
+    color: $naranja;
+    text-shadow: 3px 3px 13px rgba(0, 0, 0, 0.8);
     transform: translateY(-3%);
 }
