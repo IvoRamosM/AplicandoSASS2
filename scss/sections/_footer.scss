@@ -1,5 +1,5 @@
 footer{
-    font-family: $manrope;
+    font-family: $merriweather;
     .copy{
         font-size: 20px;
         font-weight: 600;
@@ -15,7 +15,7 @@ footer{
         color: #000;
         text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
         transition: all .3s ease;
-        border: none;
+        transition: all .3s ease;
         &:hover{
             @extend %hover-nav-li-footer; 
          }
