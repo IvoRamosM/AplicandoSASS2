@@ -1,0 +1,5 @@
+@mixin planes-estilo ($background-planes){
+    background-color: $background-planes;
+    border: $border-planes;
+    padding: $padding-planes;
+}

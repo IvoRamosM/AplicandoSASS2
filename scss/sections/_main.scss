@@ -45,3 +45,34 @@
     }
 
 }
+
+.planes{
+    font-family: $manrope;
+    .plan-emprendedores{
+        @include planes-estilo($rosa-fuerte);
+    }
+    .plan-integral{
+        @include planes-estilo($amarillo);
+    }
+    .asesoria-emprendedores{
+        @include planes-estilo($violeta);
+    }
+    .servicios-adicionales{
+        @include planes-estilo($color-servicios);
+    }
+    ul {
+        // margin: 0;
+        // padding: 0;
+        li{
+        padding: 6px;
+        }
+    }
+}
+
+
+
+
+.planes ul li{
+    background-color: #fefefe;
+    border: .5px solid $naranja ;
+  }
