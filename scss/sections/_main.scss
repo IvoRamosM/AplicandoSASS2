@@ -23,3 +23,25 @@
     }
 
 }
+
+.main-quienes{
+    font-family: $manrope;
+    .texto-quienes{
+        .k-rosa{
+            color: $rosa-fuerte;
+        }
+        .resto-texto-naranja{
+            color: $naranja;
+        }
+    } 
+    .card-body{
+        padding: 16px 10px 5px 16px;
+    }
+    .card-quienes-wan{
+        background-color: $rosa-fuerte;
+    }
+    .card-quienes-lu{
+        background-color: $naranja;
+    }
+
+}

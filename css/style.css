@@ -47,11 +47,30 @@ footer li a i:hover {
   box-shadow: 2px 2px 12px rgba(255, 255, 255, 0.5);
 }
 
+.main-quienes {
+  font-family: "Manrope", sans-serif;
+}
+.main-quienes .texto-quienes .k-rosa {
+  color: #ff00d2;
+}
+.main-quienes .texto-quienes .resto-texto-naranja {
+  color: #ff8f1b;
+}
+.main-quienes .card-body {
+  padding: 16px 10px 5px 16px;
+}
+.main-quienes .card-quienes-wan {
+  background-color: #ff00d2;
+}
+.main-quienes .card-quienes-lu {
+  background-color: #ff8f1b;
+}
+
 footer {
   font-family: "Merriweather", serif;
 }
 footer .copy {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
 }
 footer .copy .k-rosa {
