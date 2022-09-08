@@ -1,3 +1,4 @@
+// Comienzo index
 .main-index{
     height: 85vh;
     font-family: $manrope;
@@ -23,15 +24,18 @@
     }
 
 }
+// Fin index
 // Comienzo Quienes
 .main-quienes{
     font-family: $manrope;
     .texto-quienes{
         .k-rosa{
             color: $rosa-fuerte;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
         }
         .resto-texto-naranja{
             color: $naranja;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
         }
     } 
     .card-body{
@@ -76,8 +80,8 @@
 .clientes-container{
     font-family: $manrope;
     .clientes {
-    height: 60vh;
     margin-top: 120px;
+    margin-bottom: 80px;
     .cards-clientes{
     
         width: 20rem;
@@ -92,18 +96,23 @@
 // Fin clientes
 // Comienzo contacto
 .form-container{
-    margin-top: 150px;
+    margin-top: 80px;
     padding-bottom: 100px;
+    .h1-contacto{
+        font-family: $manrope;
+    }
     form{
-        border: 3px solid $naranja;
+        margin-top: 80px;
+        border: 3px solid $rosa-fuerte;
         font-family: $manrope;
         padding: 13px;
         color: #000;
         border-radius: 1%;
     }
     & .btn{
-        background-color: #ff8f1b;
+        background-color: $rosa-fuerte;
         border: #000 1px solid;
+        font-size: 16px;
         margin-top: 15px;
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
         transition: all .3s ease;
@@ -117,7 +126,7 @@
 
 // Fin contacto
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     
     textarea{
         width: 70vw;

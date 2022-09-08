@@ -1,0 +1,23 @@
+Keywords: 
+-index: keep, trendy, cm, community, manager, branding, empresas,diseño, grafico
+-quienes: quienes, somos, informacion, identidad, conocenos, community
+-planes: planes, servicios, emprendedores, empresas, integral
+-clientes: nuestros, clientes, portfolio, keep, trendy, community
+-contacto: contacto, ayuda, tencion, community, cm, email
+
+Description:
+-index: Keep Trendy es una agencia de marketing digital que pretende impulsar el crecimiento de una empresa o marca.
+-quienes: Una breve introduccion a nuestra agencia de marketing para que nos conozcan un poco mas.
+-planes: Disponemos de diferentes tipos de planes adaptados a tu necesidad.
+-clientes: Algunos de nuestros clientes y que metodologia estamos aplicando.
+-contacto: Completa el formulario de contacto para recibir ayuda.
+
+Cambie todos los titles de cada html para que muestre la marca y en que pagina estan navegando:
+-index: Keep Trendy | Index
+-quienes: Keep Trendy | Quienes Somos?
+-planes: Keep Trendy | Planes
+-clientes: Keep Trendy | Clientes
+-contacto: Keep Trendy | Contacto
+
+Agregue h1 a clientes,planes, quienes y contacto ya que ninguno tenia uno.
+

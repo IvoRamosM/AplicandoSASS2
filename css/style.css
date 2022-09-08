@@ -6,8 +6,9 @@
 }
 
 .body-background {
-  background: rgb(255, 143, 27);
-  background: linear-gradient(90deg, rgba(255, 143, 27, 0.5046393557) 51%, rgba(255, 0, 210, 0.4150035014) 100%);
+  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../img/fondo-todo2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header ul li a:hover {
@@ -22,7 +23,12 @@ footer li a i:hover {
   transform: translateY(-3%);
 }
 
-.header .nav-header {
+.header .logo {
+  width: 190px;
+  height: 100px;
+}
+
+.nav-header {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -57,9 +63,11 @@ footer li a i:hover {
 }
 .main-quienes .texto-quienes .k-rosa {
   color: #ff00d2;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }
 .main-quienes .texto-quienes .resto-texto-naranja {
   color: #ff8f1b;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }
 .main-quienes .card-body {
   padding: 16px 10px 5px 16px;
@@ -104,8 +112,8 @@ footer li a i:hover {
   font-family: "Manrope", sans-serif;
 }
 .clientes-container .clientes {
-  height: 60vh;
   margin-top: 120px;
+  margin-bottom: 80px;
 }
 .clientes-container .clientes .cards-clientes {
   width: 20rem;
@@ -117,19 +125,24 @@ footer li a i:hover {
 }
 
 .form-container {
-  margin-top: 150px;
+  margin-top: 80px;
   padding-bottom: 100px;
 }
+.form-container .h1-contacto {
+  font-family: "Manrope", sans-serif;
+}
 .form-container form {
-  border: 3px solid #ff8f1b;
+  margin-top: 80px;
+  border: 3px solid #ff00d2;
   font-family: "Manrope", sans-serif;
   padding: 13px;
   color: #000;
   border-radius: 1%;
 }
 .form-container .btn {
-  background-color: #ff8f1b;
+  background-color: #ff00d2;
   border: #000 1px solid;
+  font-size: 16px;
   margin-top: 15px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
   transition: all 0.3s ease;
@@ -139,7 +152,7 @@ footer li a i:hover {
   box-shadow: 2px 2px 12px rgba(255, 255, 255, 0.5);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   textarea {
     width: 70vw;
   }
