@@ -29,12 +29,49 @@
       </div>
     </nav>
   </header>
+  <main>
+    <div class="form-container container">
+      <form class="row " >
+        <div class="mb-3 col-md-4">
+          <label for="nombre" class="form-label">Nombre y apellido</label>
+          <input type="text" class="form-control" id="nombre">
+        </div>
+        <div class="mb-3 col-md-4">
+          <label for="empresa" class="form-label">Empresa</label>
+          <input type="text" class="form-control" id="empresa">
+        </div>
+        <div class="mb-3 col-md-4">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+        </div>
+        <div class="mb-3 col-md-4">
+          <label for="telefono" class="form-label">Telefono</label>
+          <input type="tel" class="form-control" id="telefono">
+        </div>
+        <div class="mb-3 col-md-4">
+          <label for="eleccion-plan" class="form-label">Elija su plan</label>
+          <select class="form-select" id="eleccion-plan" required>
+            <option value="#">Elija el plan deseado</option>
+            <option value="Inicial">Plan Inicial</option>
+            <option value="Profesional">Plan Profesional</option>
+            <option value="Avanzado">Plan Avanzado</option>
+          </select>
+        </div>
+        <div class="mb-3 col-md-4 ">
+          <label for="comentario">Comentario</label><br>
+          <textarea name="comentario" id="comentario" cols="25" rows="3"></textarea>
+        </div>
+        <div class="col-md-3">
+          <button class="btn" type="submit">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </main>
   <footer class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
     <div class="col-md-4 d-flex align-items-center">
       <div class="copy">&copy; 2022 <span class="k-rosa">K</span><span class="resto-texto-naranja">eep Trendy</span>
       </div>
     </div>
-
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
       <li class="ms-3"><a href="mailto: keeptrendyar@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
       </li>

@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.body-background{
+    background: rgb(255,143,27);
+    background: linear-gradient(90deg, rgba(255,143,27,0.5046393557422969) 51%, rgba(255,0,210,0.4150035014005602) 100%);
+}
 // variables
 @import "./base/variables";
 @import "./base/extend";
