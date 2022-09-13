@@ -54,7 +54,6 @@ footer li a i:hover {
   transition: all 0.3s ease;
 }
 .main-index .button-index:hover {
-  color: #fff;
   box-shadow: 2px 2px 12px rgba(255, 255, 255, 0.5);
 }
 
