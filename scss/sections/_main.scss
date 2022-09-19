@@ -75,6 +75,49 @@
     }
 }
 // Fin Planes
+// Comienzo galeria
+.galeriacontainer {  display: grid;
+    grid-template-columns: repeat(3, 33vh);
+    grid-template-rows: repeat(3, 33vw);
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "diseño1 diseño2 diseño3"
+      "diseño4 diseño5 diseño6"
+      "diseño7 diseño8 diseño9";
+  }
+
+.diseño1 {
+    grid-area: diseño1;
+}
+.diseño2 {
+    grid-area: diseño2;
+}
+.diseño3 {
+    grid-area: diseño3;
+}
+.diseño4 {
+    grid-area: diseño4;
+}
+.diseño5 {
+    grid-area: diseño5;
+}
+.diseño6 {
+    grid-area: diseño6;
+}
+.diseño7 {
+    grid-area: diseño7;
+}
+.diseño8 {
+    grid-area: diseño8;
+}
+.diseño9 {
+    grid-area: diseño9;
+}
+
+  // Fin galeria
 // Comienzo Clientes
 .clientes-container{
     font-family: $manrope;
