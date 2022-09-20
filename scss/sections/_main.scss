@@ -77,24 +77,24 @@
 // Fin Planes
 // Comienzo galeria
 
-.galeriacontainer{
+.h1-galeria{
     font-family: $manrope;
-    .galeria{
+}
+.galeria{
+width: 100%;
+margin:auto;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+column-gap: .5rem;
+row-gap: .5rem;
+.imagengaleria{
     width: 100%;
-    margin:auto;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    column-gap: .5rem;
-    row-gap: .5rem;
-    .imagengaleria{
-        width: 100%;
-        & img{
-            width: 100%; 
-        }
+    & img{
+        width: 100%; 
     }
+}
+}
 
-}
-}
 
 
 
