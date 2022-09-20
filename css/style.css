@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import 'animate.css';
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;700;800&family=Merriweather:wght@300;400;700;900&display=swap");
 * {
@@ -122,51 +121,20 @@ footer li a i:hover {
   border: 0.5px solid #ff8f1b;
 }
 
-.galeriacontainer {
+.galeria {
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+  margin: auto;
   display: grid;
-  grid-template-columns: repeat(3, 33vh);
-  grid-template-rows: repeat(3, 33vw);
-  grid-auto-columns: 1fr;
-  grid-auto-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "diseño1 diseño2 diseño3" "diseño4 diseño5 diseño6" "diseño7 diseño8 diseño9";
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 0.5rem;
+  row-gap: 0.5rem;
 }
-
-.diseño1 {
-  grid-area: diseño1;
+.galeria .imagengaleria {
+  width: 100%;
 }
-
-.diseño2 {
-  grid-area: diseño2;
-}
-
-.diseño3 {
-  grid-area: diseño3;
-}
-
-.diseño4 {
-  grid-area: diseño4;
-}
-
-.diseño5 {
-  grid-area: diseño5;
-}
-
-.diseño6 {
-  grid-area: diseño6;
-}
-
-.diseño7 {
-  grid-area: diseño7;
-}
-
-.diseño8 {
-  grid-area: diseño8;
-}
-
-.diseño9 {
-  grid-area: diseño9;
+.galeria .imagengaleria img {
+  width: 100%;
 }
 
 .clientes-container {
@@ -216,6 +184,14 @@ footer li a i:hover {
 @media (max-width: 767px) {
   textarea {
     width: 70vw;
+  }
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .galeria {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 footer {
