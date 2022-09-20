@@ -77,9 +77,9 @@
 // Fin Planes
 // Comienzo galeria
 
-
-.galeria{
+.galeriacontainer{
     font-family: $manrope;
+    .galeria{
     width: 100%;
     margin:auto;
     display: grid;
@@ -94,6 +94,8 @@
     }
 
 }
+}
+
 
 
   // Fin galeria

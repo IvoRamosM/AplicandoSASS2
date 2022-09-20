@@ -121,8 +121,10 @@ footer li a i:hover {
   border: 0.5px solid #ff8f1b;
 }
 
-.galeria {
+.galeriacontainer {
   font-family: "Manrope", sans-serif;
+}
+.galeriacontainer .galeria {
   width: 100%;
   margin: auto;
   display: grid;
@@ -130,10 +132,10 @@ footer li a i:hover {
   column-gap: 0.5rem;
   row-gap: 0.5rem;
 }
-.galeria .imagengaleria {
+.galeriacontainer .galeria .imagengaleria {
   width: 100%;
 }
-.galeria .imagengaleria img {
+.galeriacontainer .galeria .imagengaleria img {
   width: 100%;
 }
 
